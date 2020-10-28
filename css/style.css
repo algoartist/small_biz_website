@@ -1,7 +1,21 @@
 body {
   font-family: helvetica, sans-serif;
+  max-width: 600px;
 }
 
 div {
   height: 200px;
+  background-position: cover;
+}
+
+.first {
+  background: url('../images/firstcourse.jpg');
+}
+
+.second {
+  background: url('../images/secondcourse.jpg');
+}
+
+.dessert {
+  background: url('../images/dessertcourse.jpg');
 }
