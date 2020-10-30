@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <head>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
   <link href="https://fonts.googleapis.com/css2?family=Londrina+Shadow&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="css/style.css"/>
 </head>
@@ -30,4 +31,9 @@
       </small>
     </p>
   </div>
+  <script>
+    $('div').on('click', function() {
+      $(this).toggleClass('show-description');
+    });
+  </script>
 </body>
