@@ -15,7 +15,6 @@ h2 {
   margin: 0px 0 70px 0;
 }
 
-
 div {
   height: 200px;
   background-position: cover;
@@ -53,4 +52,12 @@ p {
 .price {
   text-align: right;
   float: right;
+}
+
+@media(max-width: 500px) {
+  h1 {
+    font-size: 50px;
+    margin-top: 20px;
+    line-height: 40px;
+  }
 }
